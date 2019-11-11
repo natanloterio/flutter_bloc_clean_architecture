@@ -10,7 +10,7 @@ class LoginBloc {
   Observable<LoginViewModel> get viewStream => _viewPublisher.stream;
 
   LoginBloc() {
-    // Should be used dependency injection here
+    // Should be using dependency injection here
     _useCase = LoginUseCase(LoginRepositoryImpl());
     _init();
   }
