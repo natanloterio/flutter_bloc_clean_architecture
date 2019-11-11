@@ -1,3 +1,3 @@
 
-# Flutter implementing BLoC patter with Clean Architecture
+# Flutter implementing BLoC pattern with Clean Architecture
 
