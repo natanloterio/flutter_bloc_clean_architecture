@@ -1,9 +1,9 @@
 import 'dart:async';
 
-import 'package:clean_architecture/domain/entities/logged_user.dart';
-import 'package:clean_architecture/domain/entities/user.dart';
+import 'package:clean_architecture/domain/model/logged_user.dart';
+import 'package:clean_architecture/domain/model/user.dart';
 import 'package:clean_architecture/domain/repositories/login_repository.dart';
-import 'package:clean_architecture/domain/repositories/repository_response.dart';
+import 'package:clean_architecture/domain/repositories/response_states.dart';
 import 'package:dio/dio.dart';
 
 class LoginRepositoryImpl implements LoginRepository {
