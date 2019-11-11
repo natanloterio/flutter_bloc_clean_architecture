@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:clean_architecture/domain/model/logged_user.dart';
 import 'package:clean_architecture/domain/repositories/login_repository.dart';
-import 'package:clean_architecture/domain/repositories/repository_response.dart';
+import 'package:clean_architecture/domain/repositories/response_states.dart';
 
 class LoginUseCase {
   final LoginRepository _repository;
